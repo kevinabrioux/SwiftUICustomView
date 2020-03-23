@@ -13,6 +13,7 @@
 		D0AB0F6324290FC400C7A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AB0F6224290FC400C7A3F1 /* Assets.xcassets */; };
 		D0AB0F6624290FC400C7A3F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AB0F6524290FC400C7A3F1 /* Preview Assets.xcassets */; };
 		D0AB0F6924290FC400C7A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AB0F6724290FC400C7A3F1 /* LaunchScreen.storyboard */; };
+		D0AB0F712429143F00C7A3F1 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB0F702429143F00C7A3F1 /* MyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D0AB0F6524290FC400C7A3F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0AB0F6824290FC400C7A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0AB0F6A24290FC400C7A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0AB0F702429143F00C7A3F1 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D0AB0F5C24290FC000C7A3F1 /* AppDelegate.swift */,
 				D0AB0F5E24290FC000C7A3F1 /* SceneDelegate.swift */,
 				D0AB0F6024290FC000C7A3F1 /* ContentView.swift */,
+				D0AB0F702429143F00C7A3F1 /* MyTextField.swift */,
 				D0AB0F6224290FC400C7A3F1 /* Assets.xcassets */,
 				D0AB0F6724290FC400C7A3F1 /* LaunchScreen.storyboard */,
 				D0AB0F6A24290FC400C7A3F1 /* Info.plist */,
@@ -149,6 +152,7 @@
 				D0AB0F5D24290FC000C7A3F1 /* AppDelegate.swift in Sources */,
 				D0AB0F5F24290FC000C7A3F1 /* SceneDelegate.swift in Sources */,
 				D0AB0F6124290FC000C7A3F1 /* ContentView.swift in Sources */,
+				D0AB0F712429143F00C7A3F1 /* MyTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

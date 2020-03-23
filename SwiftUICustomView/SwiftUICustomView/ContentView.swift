@@ -9,8 +9,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    var texts = ["SwiftUI", "A new declarative UI framework", "Let us try to understand how SwiftUI renders its views"]
+    
+    @State var selected = 0
+    @State var textFieldValue = ""
+    @State var isSwitchOn = false
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack(spacing: 16) {
+            MyTextField(placholder: "Enter your name", value: $textFieldValue)
+            
+            Toggle(isOn: $isSwitchOn, label: {
+                Text("A simple Switch")
+            })
+            
+            Picker(selection: $selected, label: Text(""), content: {
+                Text("Word").tag(0)
+                Text("Phrase").tag(1)
+                Text("Sentence").tag(2)
+            }).pickerStyle(SegmentedPickerStyle())
+            
+            HStack {
+                Text("Sample text")
+                Spacer()
+                Button(action: {
+                    print("just checking")
+                }, label: {
+                    Image(systemName: "plus.circle.fill")
+                        .foregroundColor(.blue)
+                })
+            }
+            
+            
+        }.padding()
+
     }
 }
 
